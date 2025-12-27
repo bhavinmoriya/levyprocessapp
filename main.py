@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+plt.style.use("ggplot")
 
+st.set_page_config(page_title="Simulated Lévy Process (Brownian + Poisson jumps)", layout="wide")  # Unique browser tab title
 # Title
 st.title("Lévy Process Simulator")
 
